@@ -14,7 +14,7 @@ const UserList = () => {
         })
 
         .catch(error => {
-            console.group(error)
+            console.log(error)
             setErrMsg(error)
         })
     }, [setUsers])
